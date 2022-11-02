@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
+    <meta name="keywords" content="test, site, website">
+    <meta name="description" content="Пробный сайт">
+    <title>Стили</title>
+    <link rel="stylesheet" type="text/css" href="../static/file.css">
+    <link href="../static/makeup_116527.png" rel="short icon" type="image/x-icon">
+    <title>Сайт макияж</title>
+</head>
+<body>
+
+<div id="page-wrap">
+    <header>
+        <a href="/" title="На главную" id="logo">Waleria Marszeniuk Make UP</a>
+        <span class="contact"><a href="/about" title="Инфо о нас">Обо мне</a></span>
+        <span class="contact"><a href="/makijaz" title="Макияж-это...">Макияж-это...</a></span>
+        <span class="contact"><a href="/vidymakijaza" title="Виды макияжа">Виды макияжа</a></span>
+        <span class="contact"><a href="/myworks" title="Мои работы">Мои работы</a></span>
+        <span class="contact"><a href="/price" title="Цены">Цены</a></span>
+        <input type="search" class="field" placeholder="Давай помогу найти">
+        <span class="right"><span class="contact"><a href="/registr" title="Зарегистрироваться">Регистрация</a></span>
+        <span class="right"><span class="contact"><a href="/auth" title="Войти">Вход</a></span>
+        </span>
+        </span>
+    </header>
+
+{% block content %}
+{% endblock %}
+
+
+<footer>
+    <span class="left">Все права защищены &copy; 2022</span>
+    <span class="right">Соц. сети
+        <a href="https://www.facebook.com/valerya.marszeniuk"><img src="../static/facebookicon.png" width="50" height="50" alt="" title="Facebook" /></a>
+        <a href="https://www.instagram.com/lajron/"><img src="../static/instaicon.png" width="50" height="50" alt="" title="Instagram" /></a>
+        <a href="https://vk.com/leria5"><img src="../static/vkicon.png" width="50" height="50" alt="" title="Vk" /></a></span>
+</footer>
+</body>
+</html>

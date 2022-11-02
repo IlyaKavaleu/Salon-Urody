@@ -1,0 +1,57 @@
+<div class="clear">
+    <div id="main_soc_block">
+        <center>
+        <div id="main_soc_block_in">
+            <h3>Регистрируйтесь на сайте</h3>
+            <p>Лучший макияж!!!</p>
+        </div>
+        </center>
+    </div>
+    </div>
+        <div id="articles">
+            <article>
+                <img src="../static/makijaz1.png" alt="Изображание" title="Изображание"/>
+                <h2 id="pict1">Макияж без макияжа</h2>
+                <p>Вступительный текст!</p>
+                <a href="/article" title="Посмотреть статью">Читать далее</a>
+            </article>
+
+            <article>
+                <img src="../static/makijaz2.png" alt="Изображание" title="Изображание"/>
+                <h2 id="pict2">Смоки айс</h2>
+                <p>Вступительный текст!</p>
+                <a href="/article" title="Посмотреть статью">Читать далее</a>
+            </article>
+
+            <article>
+                <img src="../static/makijaz4.jpg" alt="Изображание" title="Изображание"/>
+                <h2 id="pict3">Со стрелками</h2>
+                <p>Вступительный текст!</p>
+                <a href="/article" title="Посмотреть статью">Читать далее</a>
+            </article>
+    </div>
+        <div class="clear"><br /></div>
+        <div id="articles">
+            <article>
+                <img src="../static/makijaz1.png" alt="Изображание" title="Изображание"/>
+                <h2 id="pict1">Макияж без макияжа</h2>
+                <p>Вступительный текст!</p>
+                <a href="/article" title="Посмотреть статью">Читать далее</a>
+            </article>
+
+            <article>
+                <img src="../static/makijaz2.png" alt="Изображание" title="Изображание"/>
+                <h2 id="pict2">Смоки айс</h2>
+                <p>Вступительный текст!</p>
+                <a href="/article" title="Посмотреть статью">Читать далее</a>
+            </article>
+
+            <article>
+                <img src="../static/makijaz4.jpg" alt="Изображание" title="Изображание"/>
+                <h2 id="pict3">Со стрелками</h2>
+                <p>Вступительный текст!</p>
+                <a href="/article" title="Посмотреть статью">Читать далее</a>
+            </article>
+    </div>
+    </div>
+</div>

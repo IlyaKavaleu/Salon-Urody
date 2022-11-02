@@ -1,0 +1,363 @@
+html {
+    height:100%;
+}
+
+/* общее для ссылок */
+a{
+    color:pink;
+    text-decoration: none;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition:all.6s ease;
+}
+
+/* для ссылок при наведении */
+a:hover{
+    color: #FFFF00;
+    text-decoration: none;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition:all.6s ease;
+}
+/* для ссылок при нажатии */
+a:active{
+    color:pink
+}
+.white
+{
+    color:white;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    border-radius:10px;
+}
+
+
+.right{
+    float:right;
+    padding:5px;
+
+}
+.left{
+    float:left;
+    padding:20px;
+    font-weight: bold;
+}
+.clear {
+    clear:both;
+    box-shadow:5px 5px px darkgrey;
+    }
+
+/* Для всего */
+*{
+    margin:0;
+    padding:0;
+    outline: none;
+}
+/* для всего тела */
+body{
+    width:100%;
+    height: 100%;
+    color:#333;
+    background: #f7f7f7;
+    font-size: 1em;
+    font-family: mistral, sans-serif;
+    line-height:135%;
+}
+
+/* Selection Block*/
+::selection {background: white; color:#fff}
+::-moz-selection {background: white; color:#fff}
+
+/* для головы и низа */
+header, footer{
+    width: 98%;
+    background-color: #fff;
+    min-height: 77px;
+    float:left;
+}
+
+/* для головы */
+header {
+    border-bottom: 2px solid silver;
+    padding:1%;
+    background: url('../static/lenta.jpg');
+}
+
+/* logo */
+#logo {
+    font-size:2em;
+    font-family: mistral, sans-serif;
+    color: pink;
+}
+#maki{
+    ont-weight:normal;
+    font-family: mistral, sans-serif;
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+
+/* шрифт О НАС */
+.contact {
+    font-weight:normal;
+    font-family: mistral, sans-serif;
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+
+.field {
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+}
+/*input[type=text]*/
+.field:focus{
+    border:2px solid pink;
+}
+#makijaz{
+    font-weight:normal;
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+/* стили для футера*/
+
+
+#menu {
+    color:white;
+    font-family: mistral, sans-serif;
+    font-size: 2em;
+}
+
+
+#menu hr{
+    width: 500px;
+    max-width: 100%;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+
+hr {
+    display: block;
+    border: 0px;
+    height: 1px;
+    border-top: 1px solid white;
+    box-shadow:5px 5px 5px darkgrey;
+}
+
+/* для низа */
+footer{
+    padding:1%;
+    border-top: 2px solid silver;
+    padding-bottom: 2%;
+    background: url(../static/lenta.jpg);
+}
+
+#page-wrap:after {
+    content: "";
+    display: block;
+}
+
+footer, #page-wrap: after{height:10px}
+
+#page-wrap {
+    min-height: 85%;
+    background-color:pink;
+}
+
+#menuHrefs{
+    padding:5px;
+    border-radius:5px;
+    margin-right:5px;
+    font-size: 25px;
+}
+
+#menutext {
+    padding:5px;
+    border-radius:5px;
+    margin-right:5px;
+    font-size: 25px;
+}
+}
+/* Стили для сайта */
+
+#wrapper {
+    float: left;
+    width:100%;
+    margin-top:20px;
+}
+
+#wrapper #articles{
+    float:left;
+    width:74%;
+    margin-left:13%;
+}
+
+#wrapper #articles article{
+    float:left;
+    width:31.33333%;
+    border:1px solid silver;
+    box-sizing: border-box;
+    border-radius:15px;
+    background-color:#fafafa;
+    margin-right: 2%;
+    min-height:400px;
+}
+
+#wrapper #articles article img{
+    width:100%;
+    height:100%;
+    border-radius:5px 5px 0px 0px;
+    border-bottom: 1px solid silver;
+    margin-bottom:10px;
+}
+/* ТАК КАК НЕ ЗНАЛ КАК СДЕЛАТЬ ВМЕСТЕ, ВСЕ БЫЛО ХАОТИЧННО*/
+#pict1{
+    padding-left:82px;
+    font-weight: normal;
+    font-size:1.7em;
+}
+#pict2{
+    padding-left:135px;
+    font-weight: normal;
+    font-size:1.7em;
+}
+#pict3{
+    padding-left:120px;
+    font-weight: normal;
+    font-size:1.7em;
+}
+
+
+#wrapper #articles article p{
+    width:80%;
+    margin-left:30%;
+}
+
+#wrapper #articles article a{
+    margin-left:37%;
+    font-weight: normal;
+    font-size:1.2em;
+}
+
+#main_soc_block{
+    width:100%;
+    padding:2% 0;
+    border-bottom:2%;
+    border-top:2px solid silver;
+    margin: 20px 0;
+    float:left;
+    background: url('../static/') repeat-x center;
+}
+
+#main_soc_block_in{
+    text-align:center;
+    padding:1%;
+    height:100px;
+    background-color:#fafafa
+    border:1px solid silver;
+    border-radius:7px;
+    width:500px
+}
+
+#textmyjob{
+    color:black;
+    font-weight:normal;
+    font-size: 2.9em;
+}
+
+.picturemywork{
+    border-radius:25px;
+}
+
+.smalltextmakijaz {
+    color:black;
+    font-weight: normal;
+    font-size: 30px;
+    padding: 7px;
+    }
+
+.text {
+    color:black;
+    font-size: 25px;
+    }
+/* #menuHrefs a:hover {
+    background-color:#FF69B4;
+}  ЗАДНИЙ ОН ДЛЯ МЕНЮ ;)))))))))) */
+
+#vidy{
+    color:black;
+    font-family: mistral, sans-serif;
+    font-size: 4em;
+}
+
+
+
+#vidyHrefs {
+    padding:25px;
+    border-radius:5px;
+    margin-right:5px;
+    font-size: 5px;
+    }
+
+#vidy hr{
+    width: 500px;
+    max-width: 100%;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+
+#vidy1{
+    color:black;
+    font-family: mistral, sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+#vidy1 hr{
+    width: 500px;
+    max-width: 100%;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+
+.vidylink{
+    color:black;
+    font-size:8em;
+    padding:15px;
+    }
+
+.vidylink1{
+    color:black;
+    font-size:35px;
+    font-weight: bold;
+    padding:10px;
+    }
+
+hr {
+    display: block;
+    border: 0px;
+    height: 1px;
+    border-top: 1px solid white;
+    box-shadow:5px 5px 5px darkgrey;
+}
+#nazvavidy{
+    font-size:70px;
+    color:black;
+    font-weight:normal;
+}
+.fulltextvidy{
+    padding:25px;
+    font-size: 30px;
+    font-weight:normal;
+}
+
+#nazvavidy hr{
+    width: 500px;
+    max-width: 100%;
+    margin-top:5px;
+    margin-bottom: 10px;
+
+

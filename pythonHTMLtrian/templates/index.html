@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="clear"><br /></div>
+    <center>
+            <div id="menu">Разделы<hr /></div>
+            <div id="menuHrefs">
+                <a href="/about" class="white">Обо мне</a>
+                <a href="/feedback" class="white">Обратная связь</a>
+                <a href="/auth" class="white">Войти</a>
+                <a href="/registr" class="white">Регистрация</a>
+            </div>
+    </center>
+    <div id="wrapper">
+        <div id="articles">
+            <article>
+                <img src="../static/makijaz1.png" alt="Изображание" title="Изображание"/>
+                <h2 id="pict1">Макияж без макияжа</h2>
+                <p>Вступительный текст!</p>
+                <a href="/article" title="Посмотреть статью">Читать далее</a>
+            </article>
+
+            <article>
+                <img src="../static/makijaz2.png" alt="Изображание" title="Изображание"/>
+                <h2 id="pict2">Смоки айс</h2>
+                <p>Вступительный текст!</p>
+                <a href="/article" title="Посмотреть статью">Читать далее</a>
+            </article>
+
+            <article>
+                <img src="../static/makijaz4.jpg" alt="Изображание" title="Изображание"/>
+                <h2 id="pict3">Со стрелками</h2>
+                <p>Вступительный текст!</p>
+                <a href="/article" title="Посмотреть статью">Читать далее</a></article>
+    </div>
+    </div>
+
+{% endblock %}
